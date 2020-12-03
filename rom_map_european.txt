@@ -1,0 +1,22 @@
+00000000-0005D2F2 - game program
+0005D2F2-00082324 - padding (FF)
+00082324-000847F0 - sound program
+000847F0-00084870 - padding (FF)
+00084870-00097FF8 - music
+00097FF8-000D9A5E - DAC samples
+000D9A5E-000E8000 - padding (FF)
+000E8000-001653C8 - probably uncompressed and compressed graphic
+
+Details:
+000E8000-000E8680 - sega graphic
+000E8680-000ED7A4 - unknown (probably compressed graphic or mappings)
+000ED7A4-000F10A4 - uncompressed fonts
+000F10A4-000F2828 - unknown (probably compressed graphic or mappings)
+000F2828-000FEB6E - uncompressed graphic (main character, etc)
+000FEB6E-001412B6 - unknown (probably compressed graphic or mappings)
+001412B6-0014A636 - uncompressed japanese fonts
+0014A636-001653C8 - unknown (probably compressed graphic)
+
+001653C8-00180000 - padding (FF)
+00180000-001CF805 - compressed mappings for background and levels
+001CF805-00200000 - padding (FF)
